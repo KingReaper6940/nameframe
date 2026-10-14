@@ -1,0 +1,5 @@
+photo (copy).JPG
+photo.JPG
+draft notes.txt
+archive.tar.gz
+.env
