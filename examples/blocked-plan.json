@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "line": 1,
+      "original": "photo (copy).JPG",
+      "proposed": "photo.JPG",
+      "changed": true,
+      "errors": [
+        "Same target as another row (NFC/case-insensitive)."
+      ],
+      "warnings": [
+        "Target is a source name: execution needs temporary names or careful ordering."
+      ]
+    },
+    {
+      "line": 2,
+      "original": "photo.JPG",
+      "proposed": "photo.JPG",
+      "changed": false,
+      "errors": [
+        "Same target as another row (NFC/case-insensitive)."
+      ],
+      "warnings": []
+    },
+    {
+      "line": 3,
+      "original": "draft notes.txt",
+      "proposed": "draft notes.txt",
+      "changed": false,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "line": 4,
+      "original": "archive.tar.gz",
+      "proposed": "archive.tar.gz",
+      "changed": false,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "line": 5,
+      "original": ".env",
+      "proposed": ".env",
+      "changed": false,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "ready": false,
+  "stats": {
+    "total": 5,
+    "changed": 1,
+    "blocked": 2,
+    "warnings": 1
+  },
+  "comparison": "NFC plus JavaScript lowercase; conservative approximation, not filesystem emulation"
+}

@@ -2,6 +2,8 @@
 
 A clear plan for your next rename.
 
+**[Open Nameframe](https://nameframe-psi.vercel.app/)**
+
 Nameframe previews filename transformations, checks collisions and portable name rules, and exports a JSON plan. Paste names only; it never opens, uploads or renames your files.
 
 ## Features
@@ -54,3 +56,4 @@ Open http://127.0.0.1:4178. Static output is in dist/. Vercel build configuratio
 Planning only: no disk execution, scripts, rollback, metadata, directory scanning or ZIP creation. The occupied list may be incomplete or become stale. Permissions, locks, full path length, hidden aliases, Unicode equivalences and filesystem-specific rules are not fully modeled. Recheck the actual directory and use a safe implementation to execute a plan.
 
 No account, analytics, persistence or server processing. Your browser clipboard and downloaded plans remain under your control; filenames themselves can be private.
+

@@ -1,0 +1,47 @@
+{
+  "format": "nameframe-plan-v1",
+  "comparison": "NFC plus JavaScript lowercase; conservative approximation, not filesystem emulation",
+  "execution": "Planning only. Recheck the directory and use a safe rename implementation.",
+  "rows": [
+    {
+      "line": 1,
+      "original": "photo (copy).JPG",
+      "proposed": "photo_001.JPG",
+      "changed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "line": 2,
+      "original": "photo.JPG",
+      "proposed": "photo_002.JPG",
+      "changed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "line": 3,
+      "original": "draft notes.txt",
+      "proposed": "draft notes_003.txt",
+      "changed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "line": 4,
+      "original": "archive.tar.gz",
+      "proposed": "archive.tar_004.gz",
+      "changed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "line": 5,
+      "original": ".env",
+      "proposed": ".env_005",
+      "changed": true,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}
